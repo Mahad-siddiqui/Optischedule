@@ -1,0 +1,26 @@
+node_modules/
+dist/
+generated-data/
+output/
+.env
+frontend/node_modules
+frontend/dist/
+frontend/.env
+schedular/node_modules
+schedular/dist/
+schedular/.env
+logs/
+*.log
+*.tmp
+*.bak
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.sln
+
+
+time table of online and physical (1).pdf
+OptiSchedule_Proposal.docx
