@@ -13,7 +13,7 @@ import {
 import { NavLink } from "react-router-dom";
 
 const navItems = [
-  { to: "/", label: "Command Center", icon: LayoutDashboard },
+  { to: "/", label: "Evolution Lab", icon: LayoutDashboard },
   { to: "/timetable", label: "Timetable", icon: CalendarDays },
   { to: "/resources", label: "Resources", icon: Building2 },
   { to: "/about-ea", label: "About EA", icon: BrainCircuit },
@@ -51,7 +51,7 @@ export function Sidebar({
               OptiSchedule
             </p>
             <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-cyan-400/70">
-              EA Command Center
+              Timetable Evolution Lab
             </p>
           </div>
         )}

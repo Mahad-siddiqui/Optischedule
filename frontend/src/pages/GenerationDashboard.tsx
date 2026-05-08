@@ -2,8 +2,8 @@ import { useCallback, useRef, useState } from "react";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import {
-  ArrowRight, BrainCircuit, CheckCircle2, Dna, FlaskConical,
-  Gauge, Loader2, Play, Radar, ShieldCheck, Zap,
+  ArrowRight, BrainCircuit, CheckCircle2, FlaskConical,
+  Gauge, Loader2, Play, ShieldCheck, Zap,
   type LucideIcon, Activity, BarChart3, Terminal, Eye,
 } from "lucide-react";
 import {
@@ -118,7 +118,7 @@ export function GenerationDashboard() {
               <BrainCircuit className="h-3.5 w-3.5" /> Evolutionary Core
             </div>
             <h1 className="font-display mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Genetic Algorithm <span className="text-cyan-400">Command Center</span>
+              OptiSchedule <span className="text-cyan-400">Evolution Lab</span>
             </h1>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/50">
               Configure EA parameters, launch the optimization, and watch the algorithm evolve conflict-free timetables in real time.
@@ -316,7 +316,64 @@ export function GenerationDashboard() {
         </div>
       </section>
 
-      {/* ─── Constraints + Stats Row ─── */}
+      {/* ─── Live Constraint Tracker ─── */}
+      <section className="bento-card">
+        <div className="flex items-center gap-2">
+          <ShieldCheck className="h-4 w-4 text-emerald-400" />
+          <h3 className="text-sm font-bold text-white/80">Live Constraint Tracker</h3>
+          {isGenerating && <span className="live-dot ml-auto" />}
+          {!isGenerating && report && (
+            <span className={`ml-auto text-[10px] font-bold uppercase tracking-[0.2em] ${report.hardViolations === 0 ? "text-emerald-400" : "text-rose-400"}`}>
+              {report.hardViolations === 0 ? "✓ Feasible" : `${report.hardViolations} Violations`}
+            </span>
+          )}
+        </div>
+        <div className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7">
+          {[
+            { label: "Room Clashes", value: report?.hardBreakdown?.roomClashes ?? 0, color: "rose" },
+            { label: "Teacher Clashes", value: report?.hardBreakdown?.teacherClashes ?? 0, color: "orange" },
+            { label: "Student Clashes", value: report?.hardBreakdown?.studentClashes ?? 0, color: "amber" },
+            { label: "Room Type", value: report?.hardBreakdown?.roomTypeMismatches ?? 0, color: "violet" },
+            { label: "Capacity", value: report?.hardBreakdown?.capacityViolations ?? 0, color: "blue" },
+            { label: "Break Violations", value: report?.hardBreakdown?.breakViolations ?? 0, color: "pink" },
+            { label: "Duration", value: report?.hardBreakdown?.durationViolations ?? 0, color: "cyan" },
+          ].map(({ label, value, color }) => {
+            const ok = value === 0;
+            const colorMap: Record<string, string> = {
+              rose: "border-rose-400/20 bg-rose-400/[0.06] text-rose-400",
+              orange: "border-orange-400/20 bg-orange-400/[0.06] text-orange-400",
+              amber: "border-amber-400/20 bg-amber-400/[0.06] text-amber-400",
+              violet: "border-violet-400/20 bg-violet-400/[0.06] text-violet-400",
+              blue: "border-blue-400/20 bg-blue-400/[0.06] text-blue-400",
+              pink: "border-pink-400/20 bg-pink-400/[0.06] text-pink-400",
+              cyan: "border-cyan-400/20 bg-cyan-400/[0.06] text-cyan-400",
+            };
+            return (
+              <div key={label} className={`rounded-xl border p-3 transition-all duration-300 ${ok ? "border-emerald-400/15 bg-emerald-400/[0.04]" : colorMap[color]}`}>
+                <p className={`text-lg font-bold font-mono ${ok ? "text-emerald-400" : ""}`}>{value}</p>
+                <p className="mt-0.5 text-[10px] text-white/40">{label}</p>
+                {ok && <p className="mt-0.5 text-[9px] font-bold text-emerald-400/60">✓ Clear</p>}
+              </div>
+            );
+          })}
+        </div>
+        {report && (
+          <div className="mt-3 grid gap-2 sm:grid-cols-3">
+            {[
+              { label: "Student Gaps", value: report.softBreakdown?.studentGaps?.toFixed(0) ?? "0", color: "text-amber-400/70" },
+              { label: "Early Finish", value: report.softBreakdown?.earlyFinish?.toFixed(0) ?? "0", color: "text-cyan-400/70" },
+              { label: "Campus Span", value: report.softBreakdown?.campusSpan?.toFixed(0) ?? "0", color: "text-violet-400/70" },
+            ].map(({ label, value, color }) => (
+              <div key={label} className="flex items-center justify-between rounded-lg border border-white/[0.04] bg-white/[0.02] px-3 py-2 text-xs">
+                <span className="text-white/30">{label}</span>
+                <span className={`font-mono font-bold ${color}`}>{value}</span>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
+
+      {/* ─── Constraints Reference ─── */}
       <section className="grid gap-4 xl:grid-cols-2">
         <div className="bento-card">
           <h3 className="flex items-center gap-2 text-sm font-bold text-white/80">

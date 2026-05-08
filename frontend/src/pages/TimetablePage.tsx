@@ -42,7 +42,7 @@ export function TimetablePage() {
       <div className="grid min-h-[60vh] place-items-center">
         <div className="text-center">
           <p className="text-lg font-bold text-white/60">No schedule generated yet</p>
-          <p className="mt-2 text-sm text-white/30">Go to Command Center and run the EA first.</p>
+          <p className="mt-2 text-sm text-white/30">Go to Evolution Lab and run the EA first.</p>
         </div>
       </div>
     );
