@@ -7,6 +7,7 @@ export interface GeneticAlgorithmConfig {
   populationSize: number;
   tournamentSize: number;
   mutationRate: number;
+  crossoverRate: number;
   eliteCount: number;
 }
 
@@ -60,7 +61,9 @@ export class Population {
     while (nextGeneration.length < this.config.populationSize) {
       const parentA = this.tournamentSelection();
       const parentB = this.tournamentSelection();
-      const child = parentA.crossover(parentB, this.data, this.random);
+      const child = this.random.chance(this.config.crossoverRate)
+        ? parentA.crossover(parentB, this.data, this.random)
+        : parentA.clone();
       child.mutate(this.data, this.random, this.config.mutationRate);
       nextGeneration.push(child);
     }

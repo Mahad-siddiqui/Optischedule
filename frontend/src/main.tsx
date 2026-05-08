@@ -12,14 +12,20 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Toaster
         position="top-right"
         toastOptions={{
-          className: "text-sm",
-          duration: 3500,
+          duration: 4000,
+          style: {
+            background: "#151b2e",
+            color: "#e8edf5",
+            border: "1px solid rgba(99, 122, 179, 0.15)",
+            borderRadius: "12px",
+            fontSize: "13px",
+          },
           success: {
-            iconTheme: {
-              primary: "#0284c7",
-              secondary: "#ffffff"
-            }
-          }
+            iconTheme: { primary: "#34d399", secondary: "#151b2e" },
+          },
+          error: {
+            iconTheme: { primary: "#fb7185", secondary: "#151b2e" },
+          },
         }}
       />
     </BrowserRouter>

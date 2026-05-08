@@ -1,109 +1,60 @@
-import { Download, FileText, Table2, type LucideIcon } from "lucide-react";
+import { Download, FileSpreadsheet, FileText, type LucideIcon } from "lucide-react";
+import { getExportUrl } from "../services/api";
 
 type DownloadVariant = "panel" | "inline";
 
 interface ExportItem {
   label: string;
   description: string;
-  href: string;
   fileName: string;
   icon: LucideIcon;
-  allowPreview?: boolean;
+  color: string;
 }
 
 const exportsList: ExportItem[] = [
-  {
-    label: "PDF",
-    description: "Printable timetable report",
-    href: "/exports/best-timetable.pdf",
-    fileName: "OptiSchedule-Timetable.pdf",
-    icon: FileText,
-    allowPreview: true
-  },
-  {
-    label: "Excel",
-    description: "Workbook with section sheets",
-    href: "/exports/best-timetable.xlsx",
-    fileName: "OptiSchedule-Timetable.xlsx",
-    icon: Table2
-  },
-  {
-    label: "Word",
-    description: "Editable timetable document",
-    href: "/exports/best-timetable.docx",
-    fileName: "OptiSchedule-Timetable.docx",
-    icon: FileText
-  }
+  { label: "PDF", description: "Printable timetable report", fileName: "best-timetable.pdf", icon: FileText, color: "text-rose-400" },
+  { label: "Excel", description: "Section-wise workbook", fileName: "best-timetable.xlsx", icon: FileSpreadsheet, color: "text-emerald-400" },
+  { label: "Word", description: "Editable document", fileName: "best-timetable.docx", icon: FileText, color: "text-blue-400" },
 ];
 
 export function DownloadExports({ variant = "panel" }: { variant?: DownloadVariant }) {
   if (variant === "inline") {
     return (
-      <div className="flex flex-wrap gap-2" aria-label="Download timetable exports">
+      <div className="flex flex-wrap gap-2">
         {exportsList.map((item) => (
-          <DownloadButton key={item.label} item={item} compact />
+          <a key={item.label} href={getExportUrl(item.fileName)} download={item.fileName}
+            className="focus-ring inline-flex h-9 items-center gap-2 rounded-full border border-white/[0.08] bg-white/[0.04] px-3 text-xs font-semibold text-white/60 transition hover:bg-white/[0.08] hover:text-white">
+            <item.icon className={`h-3.5 w-3.5 ${item.color}`} /> {item.label}
+          </a>
         ))}
       </div>
     );
   }
 
   return (
-    <section className="glass-panel rounded-2xl p-5">
+    <section className="bento-card">
       <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
         <div>
-          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-600">
-            <Download className="h-5 w-5" aria-hidden="true" />
-            Export Timetable
+          <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.3em] text-cyan-400/70">
+            <Download className="h-4 w-4" /> Export Timetable
           </div>
-          <p className="mt-1 text-sm text-slate-600">
-            Download the latest generated schedule in PDF, Excel, or Word format.
-          </p>
+          <p className="mt-1 text-sm text-white/40">Download the latest generated schedule as PDF, Excel, or Word.</p>
         </div>
-
         <div className="grid gap-3 sm:grid-cols-3">
           {exportsList.map((item) => (
-            <DownloadButton key={item.label} item={item} />
+            <a key={item.label} href={getExportUrl(item.fileName)} download={item.fileName}
+              className="focus-ring flex items-center gap-3 rounded-xl border border-white/[0.06] bg-white/[0.03] px-4 py-3 transition hover:border-cyan-400/15 hover:bg-white/[0.05]">
+              <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-lg bg-white/[0.04] ${item.color}`}>
+                <item.icon className="h-5 w-5" />
+              </span>
+              <span>
+                <span className="block text-sm font-bold text-white/80">{item.label}</span>
+                <span className="block text-[11px] text-white/30">{item.description}</span>
+              </span>
+            </a>
           ))}
         </div>
       </div>
     </section>
-  );
-}
-
-function DownloadButton({ item, compact = false }: { item: ExportItem; compact?: boolean }) {
-  const Icon = item.icon;
-  const previewLink = item.allowPreview ? (
-    <a
-      href={item.href}
-      target="_blank"
-      rel="noreferrer"
-      className="text-xs font-semibold text-cyan-700 hover:text-cyan-900"
-    >
-      View
-    </a>
-  ) : null;
-
-  return (
-    <div className={compact ? "flex items-center gap-2" : "flex flex-col gap-2"}>
-      <a
-        href={item.href}
-        download={item.allowPreview ? undefined : item.fileName}
-        className={[
-          "focus-ring inline-flex items-center rounded-full border border-slate-200 bg-white font-semibold text-slate-700 shadow-sm transition hover:border-cyan-200 hover:bg-cyan-50 hover:text-slate-900",
-          compact ? "h-10 gap-2 px-3 text-sm" : "min-h-16 gap-3 px-4 py-3 text-sm"
-        ].join(" ")}
-      >
-        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-cyan-600 text-white">
-          <Icon className="h-5 w-5" aria-hidden="true" />
-        </span>
-        <span className={compact ? "sr-only" : "min-w-0"}>
-          <span className="block">{item.label}</span>
-          <span className="block truncate text-xs font-medium text-slate-500">{item.description}</span>
-        </span>
-        {compact && <span>{item.label}</span>}
-      </a>
-      {!compact && previewLink}
-      {compact && previewLink && <span className="text-xs">{previewLink}</span>}
-    </div>
   );
 }

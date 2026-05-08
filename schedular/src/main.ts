@@ -14,6 +14,7 @@ const config: GeneticAlgorithmConfig = {
   populationSize: getNumberFromEnv("OPTISCHEDULE_POPULATION_SIZE", 100),
   tournamentSize: getNumberFromEnv("OPTISCHEDULE_TOURNAMENT_SIZE", 5),
   mutationRate: getNumberFromEnv("OPTISCHEDULE_MUTATION_RATE", 0.05),
+  crossoverRate: getNumberFromEnv("OPTISCHEDULE_CROSSOVER_RATE", 0.85),
   eliteCount: getNumberFromEnv("OPTISCHEDULE_ELITE_COUNT", 4)
 };
 

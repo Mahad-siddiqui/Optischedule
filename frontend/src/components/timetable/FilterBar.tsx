@@ -8,92 +8,41 @@ interface FilterBarProps {
   onChange: (filters: TimetableFilters) => void;
 }
 
-const defaultFilters: TimetableFilters = {
-  semester: "8",
-  section: "A",
-  teacher: "all",
-  room: "all"
-};
+const defaultFilters: TimetableFilters = { semester: "8", section: "A", teacher: "all", room: "all" };
 
 export function FilterBar({ filters, teacherOptions, roomOptions, onChange }: FilterBarProps) {
   return (
-    <div className="sticky top-0 z-30 rounded-2xl border border-white/80 bg-white/90 p-4 shadow-panel backdrop-blur">
-      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[180px_160px_minmax(220px,1fr)_minmax(220px,1fr)_auto]">
-        <SelectField
-          label="Semester"
-          value={filters.semester}
-          onChange={(value) => onChange({ ...filters, semester: value as TimetableFilters["semester"] })}
-          options={[
-            ["all", "All"],
-            ["2", "2nd Semester"],
-            ["4", "4th Semester"],
-            ["6", "6th Semester"],
-            ["8", "8th Semester"]
-          ]}
-        />
-
-        <SelectField
-          label="Section"
-          value={filters.section}
-          onChange={(value) => onChange({ ...filters, section: value as TimetableFilters["section"] })}
-          options={[
-            ["all", "All"],
-            ["A", "Section A"],
-            ["B", "Section B"]
-          ]}
-        />
-
-        <SelectField
-          label="Teacher"
-          value={filters.teacher}
-          onChange={(value) => onChange({ ...filters, teacher: value })}
-          options={[["all", "All Teachers"], ...teacherOptions.map((teacher) => [teacher, teacher] as const)]}
-        />
-
-        <SelectField
-          label="Room"
-          value={filters.room}
-          onChange={(value) => onChange({ ...filters, room: value })}
-          options={[["all", "All Rooms"], ...roomOptions.map((room) => [room, room] as const)]}
-        />
-
-        <button
-          type="button"
-          onClick={() => onChange(defaultFilters)}
-          className="focus-ring inline-flex h-11 items-center justify-center gap-2 self-end rounded-full border border-slate-200 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:bg-slate-100"
-        >
-          <RotateCcw className="h-4 w-4" aria-hidden="true" />
-          Reset
+    <div className="sticky top-0 z-30 rounded-2xl border border-white/[0.06] bg-[#0a0e1a]/90 p-4 backdrop-blur-xl">
+      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[180px_160px_1fr_1fr_auto]">
+        <SelectField label="Semester" value={filters.semester}
+          onChange={(v) => onChange({ ...filters, semester: v as TimetableFilters["semester"] })}
+          options={[["all", "All"], ["2", "2nd Sem"], ["4", "4th Sem"], ["6", "6th Sem"], ["8", "8th Sem"]]} />
+        <SelectField label="Section" value={filters.section}
+          onChange={(v) => onChange({ ...filters, section: v as TimetableFilters["section"] })}
+          options={[["all", "All"], ["A", "Section A"], ["B", "Section B"]]} />
+        <SelectField label="Teacher" value={filters.teacher}
+          onChange={(v) => onChange({ ...filters, teacher: v })}
+          options={[["all", "All Teachers"], ...teacherOptions.map((t) => [t, t] as const)]} />
+        <SelectField label="Room" value={filters.room}
+          onChange={(v) => onChange({ ...filters, room: v })}
+          options={[["all", "All Rooms"], ...roomOptions.map((r) => [r, r] as const)]} />
+        <button type="button" onClick={() => onChange(defaultFilters)}
+          className="focus-ring inline-flex h-10 items-center gap-2 self-end rounded-lg border border-white/[0.08] bg-white/[0.04] px-4 text-xs font-semibold text-white/50 transition hover:bg-white/[0.08] hover:text-white">
+          <RotateCcw className="h-3.5 w-3.5" /> Reset
         </button>
       </div>
     </div>
   );
 }
 
-function SelectField({
-  label,
-  value,
-  options,
-  onChange
-}: {
-  label: string;
-  value: string;
-  options: ReadonlyArray<readonly [string, string]>;
-  onChange: (value: string) => void;
+function SelectField({ label, value, options, onChange }: {
+  label: string; value: string; options: ReadonlyArray<readonly [string, string]>; onChange: (v: string) => void;
 }) {
   return (
-    <label className="flex flex-col gap-1.5">
-      <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">{label}</span>
-      <select
-        value={value}
-        onChange={(event) => onChange(event.target.value)}
-        className="focus-ring h-11 rounded-full border border-slate-200 bg-white px-4 text-sm font-semibold text-slate-800 shadow-sm transition hover:border-cyan-200"
-      >
-        {options.map(([optionValue, optionLabel]) => (
-          <option key={optionValue} value={optionValue}>
-            {optionLabel}
-          </option>
-        ))}
+    <label className="flex flex-col gap-1">
+      <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/30">{label}</span>
+      <select value={value} onChange={(e) => onChange(e.target.value)} className="select-dark">
+        {options.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
       </select>
     </label>
   );

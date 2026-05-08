@@ -3,39 +3,203 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light;
-  font-family: "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
-  background: radial-gradient(circle at top, rgba(14, 165, 233, 0.12), transparent 55%),
-    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.1), transparent 45%),
-    radial-gradient(circle at 80% 0%, rgba(248, 250, 252, 0.9), rgba(226, 232, 240, 0.7));
+  color-scheme: dark;
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --bg-primary: #0a0e1a;
+  --bg-surface: #0f1425;
+  --bg-elevated: #151b2e;
+  --bg-glass: rgba(15, 20, 37, 0.72);
+  --border-subtle: rgba(99, 122, 179, 0.12);
+  --border-glow: rgba(56, 189, 248, 0.2);
+  --text-primary: #e8edf5;
+  --text-secondary: #8b95b0;
+  --text-muted: #5c6580;
+  --accent-cyan: #38bdf8;
+  --accent-emerald: #34d399;
+  --accent-violet: #a78bfa;
+  --accent-amber: #fbbf24;
+  --accent-rose: #fb7185;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(99, 122, 179, 0.2) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(99, 122, 179, 0.2);
+  border-radius: 999px;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  color: #0f172a;
+  background: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 button,
-select {
+select,
+input {
   font: inherit;
 }
 
 @layer components {
   .focus-ring {
-    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-500;
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-400/60;
   }
 
   .font-display {
-    font-family: "Space Grotesk", "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-family: "Space Grotesk", "Inter", system-ui, sans-serif;
   }
 
+  .font-mono {
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+  }
+
+  /* Glassmorphism panels */
   .glass-panel {
-    @apply border border-white/60 bg-white/75 shadow-panel backdrop-blur;
+    background: var(--bg-glass);
+    backdrop-filter: blur(16px) saturate(1.6);
+    -webkit-backdrop-filter: blur(16px) saturate(1.6);
+    border: 1px solid var(--border-subtle);
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.25),
+      inset 0 1px 0 rgba(255, 255, 255, 0.04);
   }
 
-  .panel-sheen {
-    @apply border border-cyan-200/40 bg-white/80 shadow-panel;
+  .glass-panel-glow {
+    background: var(--bg-glass);
+    backdrop-filter: blur(20px) saturate(1.8);
+    -webkit-backdrop-filter: blur(20px) saturate(1.8);
+    border: 1px solid var(--border-glow);
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.3),
+      0 0 48px rgba(56, 189, 248, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  .bento-card {
+    @apply glass-panel rounded-2xl p-5 transition-all duration-300;
+  }
+
+  .bento-card:hover {
+    border-color: rgba(56, 189, 248, 0.2);
+    box-shadow:
+      0 12px 40px rgba(0, 0, 0, 0.3),
+      0 0 60px rgba(56, 189, 248, 0.05);
+    transform: translateY(-1px);
+  }
+
+  /* Animated gradient border */
+  .gradient-border {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(
+      135deg,
+      rgba(56, 189, 248, 0.3),
+      rgba(167, 139, 250, 0.15),
+      rgba(52, 211, 153, 0.2)
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* Glowing input fields */
+  .input-dark {
+    @apply h-10 rounded-lg border border-white/[0.08] bg-white/[0.04] px-3 text-sm text-white/90 transition;
+    @apply placeholder:text-white/30;
+    @apply hover:border-cyan-400/20 hover:bg-white/[0.06];
+    @apply focus:border-cyan-400/40 focus:outline-none focus:ring-1 focus:ring-cyan-400/20;
+  }
+
+  .select-dark {
+    @apply input-dark appearance-none pr-8 cursor-pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%238b95b0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+  }
+
+  /* Pulse animation */
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.05); }
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  /* Shimmer */
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
+  .animate-shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent 25%,
+      rgba(56, 189, 248, 0.08) 50%,
+      transparent 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+
+  /* Live indicator dot */
+  @keyframes live-dot {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7); }
+    50% { opacity: 0.6; box-shadow: 0 0 0 6px rgba(52, 211, 153, 0); }
+  }
+
+  .live-dot {
+    @apply h-2 w-2 rounded-full bg-emerald-400;
+    animation: live-dot 1.5s ease-in-out infinite;
+  }
+
+  /* Log console styling */
+  .log-console {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(99, 122, 179, 0.1);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  /* Gene cell animation */
+  @keyframes gene-swap {
+    0% { transform: scale(1); opacity: 1; }
+    25% { transform: scale(0.85); opacity: 0.5; }
+    50% { transform: scale(0.85); opacity: 0.5; background: rgba(56, 189, 248, 0.2); }
+    75% { transform: scale(1.05); opacity: 0.9; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  .gene-swapping {
+    animation: gene-swap 0.6s ease-in-out;
   }
 }

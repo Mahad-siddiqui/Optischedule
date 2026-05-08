@@ -5,6 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "start": "tsx src/main.ts",
+    "server": "tsx src/server.ts",
     "build": "tsc",
     "generate:data": "tsx src/data/runDummyDataGenerator.ts",
     "frontend:install": "npm --prefix frontend install",
