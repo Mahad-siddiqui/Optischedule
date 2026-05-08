@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import {
   BookOpen, Building2, DoorOpen, FlaskConical, GraduationCap,
-  Loader2, type LucideIcon, School, UserRound, Users, Clock3,
+  type LucideIcon, School, UserRound, Users, Clock3,
   BookMarked, Layers, Hash,
 } from "lucide-react";
 import { fetchUniversityData } from "../services/api";
+import { ResourcesSkeleton } from "../components/Skeleton";
 
 export function ResourcesPage() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -18,15 +19,7 @@ export function ResourcesPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  if (loading) {
-    return (
-      <div className="grid min-h-[60vh] place-items-center">
-        <div className="flex items-center gap-3 rounded-xl border border-white/[0.06] bg-white/[0.03] px-5 py-4 text-sm text-white/60">
-          <Loader2 className="h-5 w-5 animate-spin text-cyan-400" /> Loading university data…
-        </div>
-      </div>
-    );
-  }
+  if (loading) return <ResourcesSkeleton />;
 
   if (!data) {
     return (

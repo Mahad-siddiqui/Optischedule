@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { CalendarDays, Filter, Gauge, Loader2, type LucideIcon, ShieldCheck, TimerReset } from "lucide-react";
+import { CalendarDays, Filter, Gauge, type LucideIcon, ShieldCheck, TimerReset } from "lucide-react";
 import { fetchSchedule } from "../services/api";
 import type { ScheduleGene, SchedulePayload, TimetableFilters } from "../types/schedule";
 import { FilterBar } from "../components/timetable/FilterBar";
@@ -7,6 +7,7 @@ import { TimetableGrid } from "../components/timetable/TimetableGrid";
 import { DownloadExports } from "../components/DownloadExports";
 import { ScheduleAnalytics } from "../components/analytics/ScheduleAnalytics";
 import { analyzeSchedule } from "../utils/scheduleAnalytics";
+import { TimetableSkeleton } from "../components/Skeleton";
 
 const defaultFilters: TimetableFilters = { semester: "8", section: "A", teacher: "all", room: "all" };
 
@@ -28,13 +29,7 @@ export function TimetablePage() {
   const analytics = useMemo(() => analyzeSchedule(filteredGenes), [filteredGenes]);
 
   if (isLoading) {
-    return (
-      <div className="grid min-h-[60vh] place-items-center">
-        <div className="flex items-center gap-3 rounded-xl border border-white/[0.06] bg-white/[0.03] px-5 py-4 text-sm font-medium text-white/60">
-          <Loader2 className="h-5 w-5 animate-spin text-cyan-400" /> Loading timetable…
-        </div>
-      </div>
-    );
+    return <TimetableSkeleton />;
   }
 
   if (!schedule) {
@@ -78,13 +73,23 @@ export function TimetablePage() {
   );
 }
 
+/* ─── Skeleton ─── */
+function Shimmer({ className }: { className: string }) {
+  return (
+    <div className={`relative overflow-hidden rounded-lg bg-white/[0.04] ${className}`}>
+      <div className="absolute inset-0 -translate-x-full animate-[shimmer_1.6s_infinite] bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+    </div>
+  );
+}
+
+/* ─── Helpers ─── */
 function filterGenes(genes: ScheduleGene[], f: TimetableFilters): ScheduleGene[] {
-  return genes.filter((g) => {
-    return (f.semester === "all" || g.semester === Number(f.semester))
-      && (f.section === "all" || g.section === f.section)
-      && (f.teacher === "all" || g.teacherName === f.teacher)
-      && (f.room === "all" || g.roomName === f.room);
-  });
+  return genes.filter((g) =>
+    (f.semester === "all" || g.semester === Number(f.semester))
+    && (f.section === "all" || g.section === f.section)
+    && (f.teacher === "all" || g.teacherName === f.teacher)
+    && (f.room === "all" || g.roomName === f.room)
+  );
 }
 
 function Badge({ icon: Icon, label }: { icon: LucideIcon; label: string }) {
