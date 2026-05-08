@@ -2,11 +2,24 @@ import { Bar, BarChart, CartesianGrid, Cell, Legend, Pie, PieChart, ResponsiveCo
 import { BarChart3, CalendarCheck2, Clock3, Gauge, type LucideIcon, Moon, TimerReset } from "lucide-react";
 import type { ScheduleGene } from "../../types/schedule";
 import { analyzeSchedule } from "../../utils/scheduleAnalytics";
+import { useTheme } from "../../hooks/useTheme";
 
 const colors = { teaching: "#38bdf8", gaps: "#f97316", efficiency: "#34d399", labs: "#3b82f6", theory: "#34d399" };
-const tooltipStyle = { background: "#151b2e", border: "1px solid rgba(99,122,179,0.15)", borderRadius: 8, fontSize: 12, color: "#e8edf5" };
 
 export function ScheduleAnalytics({ genes }: { genes: ScheduleGene[] }) {
+  const { theme } = useTheme();
+  const isDark = theme === "dark";
+
+  const tickColor  = isDark ? "rgba(255,255,255,0.3)"  : "rgba(30,37,71,0.45)";
+  const gridColor  = isDark ? "rgba(99,122,179,0.08)"  : "rgba(99,122,179,0.15)";
+  const legendColor= isDark ? "rgba(255,255,255,0.4)"  : "rgba(30,37,71,0.55)";
+  const tooltipStyle = {
+    background  : isDark ? "#151b2e"                   : "#ffffff",
+    border      : isDark ? "1px solid rgba(99,122,179,0.15)" : "1px solid rgba(99,122,179,0.2)",
+    borderRadius: 8,
+    fontSize    : 12,
+    color       : isDark ? "#e8edf5"                   : "#1e2547",
+  };
   const a = analyzeSchedule(genes);
   return (
     <section className="grid gap-4">
@@ -21,11 +34,11 @@ export function ScheduleAnalytics({ genes }: { genes: ScheduleGene[] }) {
         <ChartPanel title="Daily Load" desc="Class vs gap hours per day">
           <ResponsiveContainer width="100%" height={250}>
             <BarChart data={a.dailyLoad} margin={{ top: 12, right: 18, left: -10, bottom: 0 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(99,122,179,0.08)" />
-              <XAxis dataKey="day" tick={{ fontSize: 11, fill: "rgba(255,255,255,0.3)" }} />
-              <YAxis tick={{ fontSize: 11, fill: "rgba(255,255,255,0.3)" }} />
+              <CartesianGrid strokeDasharray="3 3" stroke={gridColor} />
+              <XAxis dataKey="day" tick={{ fontSize: 11, fill: tickColor }} />
+              <YAxis tick={{ fontSize: 11, fill: tickColor }} />
               <Tooltip contentStyle={tooltipStyle} />
-              <Legend wrapperStyle={{ fontSize: 11, color: "rgba(255,255,255,0.4)" }} />
+              <Legend wrapperStyle={{ fontSize: 11, color: legendColor }} />
               <Bar dataKey="classHours" name="Class" fill={colors.teaching} radius={[4, 4, 0, 0]} />
               <Bar dataKey="gapHours" name="Gap" fill={colors.gaps} radius={[4, 4, 0, 0]} />
             </BarChart>
@@ -38,7 +51,7 @@ export function ScheduleAnalytics({ genes }: { genes: ScheduleGene[] }) {
                 {a.typeSplit.map((e) => <Cell key={e.name} fill={e.name === "LAB" ? colors.labs : colors.theory} />)}
               </Pie>
               <Tooltip contentStyle={tooltipStyle} />
-              <Legend wrapperStyle={{ fontSize: 11, color: "rgba(255,255,255,0.4)" }} />
+              <Legend wrapperStyle={{ fontSize: 11, color: legendColor }} />
             </PieChart>
           </ResponsiveContainer>
         </ChartPanel>
@@ -47,11 +60,11 @@ export function ScheduleAnalytics({ genes }: { genes: ScheduleGene[] }) {
         <ChartPanel title="Section Efficiency" desc="Teaching vs gap per section">
           <ResponsiveContainer width="100%" height={260}>
             <BarChart data={a.sectionEfficiency} margin={{ top: 12, right: 18, left: -10, bottom: 0 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(99,122,179,0.08)" />
-              <XAxis dataKey="section" tick={{ fontSize: 10, fill: "rgba(255,255,255,0.3)" }} interval={0} angle={-10} height={44} />
-              <YAxis tick={{ fontSize: 11, fill: "rgba(255,255,255,0.3)" }} />
+              <CartesianGrid strokeDasharray="3 3" stroke={gridColor} />
+              <XAxis dataKey="section" tick={{ fontSize: 10, fill: tickColor }} interval={0} angle={-10} height={44} />
+              <YAxis tick={{ fontSize: 11, fill: tickColor }} />
               <Tooltip contentStyle={tooltipStyle} />
-              <Legend wrapperStyle={{ fontSize: 11, color: "rgba(255,255,255,0.4)" }} />
+              <Legend wrapperStyle={{ fontSize: 11, color: legendColor }} />
               <Bar dataKey="teachingHours" name="Teaching" fill={colors.teaching} radius={[4, 4, 0, 0]} />
               <Bar dataKey="gapHours" name="Gap" fill={colors.gaps} radius={[4, 4, 0, 0]} />
             </BarChart>
@@ -60,9 +73,9 @@ export function ScheduleAnalytics({ genes }: { genes: ScheduleGene[] }) {
         <ChartPanel title="Room Utilization" desc="Top rooms by hours">
           <ResponsiveContainer width="100%" height={260}>
             <BarChart data={a.roomUsage} layout="vertical" margin={{ top: 12, right: 18, left: 60, bottom: 0 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(99,122,179,0.08)" />
-              <XAxis type="number" tick={{ fontSize: 11, fill: "rgba(255,255,255,0.3)" }} />
-              <YAxis dataKey="room" type="category" tick={{ fontSize: 10, fill: "rgba(255,255,255,0.3)" }} width={100} />
+              <CartesianGrid strokeDasharray="3 3" stroke={gridColor} />
+              <XAxis type="number" tick={{ fontSize: 11, fill: tickColor }} />
+              <YAxis dataKey="room" type="category" tick={{ fontSize: 10, fill: tickColor }} width={100} />
               <Tooltip contentStyle={tooltipStyle} />
               <Bar dataKey="hours" name="Hours" fill="#a78bfa" radius={[0, 4, 4, 0]} />
             </BarChart>

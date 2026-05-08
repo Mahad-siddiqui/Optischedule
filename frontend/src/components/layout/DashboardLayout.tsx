@@ -6,7 +6,7 @@ export function DashboardLayout() {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
 
   return (
-    <div className="relative min-h-screen bg-[#0a0e1a]">
+    <div className="relative min-h-screen" style={{ background: "var(--bg-primary)", transition: "background 0.3s" }}>
       {/* Background grid pattern */}
       <div className="pointer-events-none fixed inset-0 bg-grid-pattern bg-grid-40 opacity-30" />
       {/* Ambient glows */}

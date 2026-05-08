@@ -107,10 +107,10 @@ export function GenerationDashboard() {
   return (
     <>
       {/* ─── Hero Banner ─── */}
-      <section className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-gradient-to-br from-[#0c1229] via-[#0f1a35] to-[#101630] p-6 shadow-lg">
+      <section className="bento-card relative overflow-hidden p-6 shadow-lg">
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -left-20 top-8 h-48 w-48 rounded-full bg-cyan-500/10 blur-[80px]" />
-          <div className="absolute right-8 top-16 h-56 w-56 rounded-full bg-violet-500/8 blur-[80px]" />
+          <div className="absolute right-8 top-16 h-56 w-56 rounded-full bg-violet-500/[0.07] blur-[80px]" />
         </div>
         <div className="relative grid gap-8 lg:grid-cols-[1.3fr_1fr] lg:items-center">
           <div>
