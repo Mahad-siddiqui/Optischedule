@@ -1,0 +1,113 @@
+department,batch,semester,section,courseCode,courseName,sessionType,teacher,room,day,start,end,durationPeriods
+CSE,22F,8,22F 8th Semester Section A,CSC-482,Computer Vision,THEORY,Dr. Sadia Akhtar,CS Lecture Room 101,Monday,09:00,09:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-481,Machine Learning PR,LAB,Dr. Ayesha Noor,AI and Data Science Lab,Monday,10:00,12:55,3
+CSE,22F,8,22F 8th Semester Section A,CSC-484,Software Project Management,THEORY,Mr. Bilal Khan,CS Lecture Room 101,Monday,16:00,16:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-483,Evolutionary Computing,THEORY,Dr. Asma Sanam Larik,CS Seminar Room 301,Tuesday,10:00,10:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-482,Computer Vision,THEORY,Dr. Sadia Akhtar,CS Seminar Room 301,Tuesday,11:00,11:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-483,Evolutionary Computing,THEORY,Dr. Asma Sanam Larik,CS Seminar Room 301,Tuesday,12:00,12:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-483,Evolutionary Computing,THEORY,Dr. Asma Sanam Larik,CS Final Year Discussion Room,Tuesday,15:00,15:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-484,Software Project Management,THEORY,Mr. Bilal Khan,CS Lecture Room 201,Tuesday,16:00,16:55,1
+CSE,22F,8,22F 8th Semester Section A,HUM-481,Professional Ethics,THEORY,Ms. Mahnoor Raza,CS Smart Classroom 325,Wednesday,10:00,10:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-482,Computer Vision,THEORY,Dr. Sadia Akhtar,CS Smart Classroom 325,Wednesday,11:00,11:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-481,Machine Learning,THEORY,Dr. Ayesha Noor,CS Seminar Room 301,Wednesday,12:00,12:55,1
+CSE,22F,8,22F 8th Semester Section A,HUM-481,Professional Ethics,THEORY,Ms. Mahnoor Raza,CS Lecture Room 101,Wednesday,15:00,15:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-481,Machine Learning,THEORY,Dr. Ayesha Noor,CS Lecture Room 102,Thursday,09:00,09:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-484,Software Project Management,THEORY,Mr. Bilal Khan,CS Smart Classroom 326,Thursday,11:00,11:55,1
+CSE,22F,8,22F 8th Semester Section A,CSC-482,Computer Vision PR,LAB,Dr. Sadia Akhtar,AI and Data Science Lab,Thursday,14:00,16:55,3
+CSE,22F,8,22F 8th Semester Section A,CSC-481,Machine Learning,THEORY,Dr. Ayesha Noor,CS Lecture Room 101,Friday,14:00,14:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-362,Mobile Application Development,THEORY,Engr. Zain Siddiqui,CS Final Year Discussion Room,Monday,09:00,09:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-364,Parallel and Distributed Computing,THEORY,Engr. Farhan Ahmed,CS Lecture Room 101,Monday,10:00,10:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-364,Parallel and Distributed Computing,THEORY,Engr. Farhan Ahmed,CS Lecture Room 201,Monday,11:00,11:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-363,Information Security,THEORY,Dr. Sanaullah Shaikh,CS Smart Classroom 326,Monday,12:00,12:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-362,Mobile Application Development PR,LAB,Engr. Zain Siddiqui,AI and Data Science Lab,Monday,14:00,16:55,3
+CSE,23F,6,23F 6th Semester Section A,CSC-361,Artificial Intelligence PR,LAB,Dr. Ayesha Noor,AI and Data Science Lab,Tuesday,09:00,11:55,3
+CSE,23F,6,23F 6th Semester Section A,CSC-363,Information Security,THEORY,Dr. Sanaullah Shaikh,CS Smart Classroom 325,Tuesday,12:00,12:55,1
+CSE,23F,6,23F 6th Semester Section A,MGT-361,Entrepreneurship,THEORY,Ms. Mahnoor Raza,CS Lecture Room 101,Tuesday,14:00,14:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-361,Artificial Intelligence,THEORY,Dr. Ayesha Noor,CS Smart Classroom 326,Tuesday,15:00,15:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-363,Information Security,THEORY,Dr. Sanaullah Shaikh,CS Smart Classroom 326,Tuesday,16:00,16:55,1
+CSE,23F,6,23F 6th Semester Section A,MGT-361,Entrepreneurship,THEORY,Ms. Mahnoor Raza,CS Seminar Room 301,Wednesday,09:00,09:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-361,Artificial Intelligence,THEORY,Dr. Ayesha Noor,CS Lecture Room 202,Wednesday,11:00,11:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-364,Parallel and Distributed Computing,THEORY,Engr. Farhan Ahmed,CS Lecture Room 201,Wednesday,12:00,12:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-361,Artificial Intelligence,THEORY,Dr. Ayesha Noor,CS Lecture Room 201,Wednesday,14:00,14:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-362,Mobile Application Development,THEORY,Engr. Zain Siddiqui,CS Seminar Room 301,Wednesday,15:00,15:55,1
+CSE,23F,6,23F 6th Semester Section A,CSC-362,Mobile Application Development,THEORY,Engr. Zain Siddiqui,CS Lecture Room 201,Thursday,15:00,15:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-364,Parallel and Distributed Computing,THEORY,Engr. Farhan Ahmed,CS Lecture Room 202,Wednesday,10:00,10:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-364,Parallel and Distributed Computing,THEORY,Engr. Farhan Ahmed,CS Final Year Discussion Room,Wednesday,11:00,11:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-363,Information Security,THEORY,Dr. Sanaullah Shaikh,CS Lecture Room 202,Wednesday,12:00,12:55,1
+CSE,23F,6,23F 6th Semester Section B,MGT-361,Entrepreneurship,THEORY,Ms. Mahnoor Raza,CS Final Year Discussion Room,Wednesday,14:00,14:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-361,Artificial Intelligence,THEORY,Dr. Ayesha Noor,CS Final Year Discussion Room,Wednesday,15:00,15:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-364,Parallel and Distributed Computing,THEORY,Engr. Farhan Ahmed,CS Final Year Discussion Room,Wednesday,16:00,16:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-363,Information Security,THEORY,Dr. Sanaullah Shaikh,CS Smart Classroom 326,Thursday,09:00,09:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-363,Information Security,THEORY,Dr. Sanaullah Shaikh,CS Seminar Room 301,Thursday,10:00,10:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-362,Mobile Application Development,THEORY,Engr. Zain Siddiqui,CS Lecture Room 202,Thursday,11:00,11:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-362,Mobile Application Development,THEORY,Engr. Zain Siddiqui,CS Smart Classroom 325,Thursday,12:00,12:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-361,Artificial Intelligence PR,LAB,Dr. Ayesha Noor,Cyber Security Lab,Thursday,14:00,16:55,3
+CSE,23F,6,23F 6th Semester Section B,CSC-362,Mobile Application Development,THEORY,Engr. Zain Siddiqui,CS Smart Classroom 326,Friday,09:00,09:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-361,Artificial Intelligence,THEORY,Dr. Ayesha Noor,CS Lecture Room 202,Friday,10:00,10:55,1
+CSE,23F,6,23F 6th Semester Section B,MGT-361,Entrepreneurship,THEORY,Ms. Mahnoor Raza,CS Lecture Room 101,Friday,11:00,11:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-361,Artificial Intelligence,THEORY,Dr. Ayesha Noor,CS Seminar Room 301,Friday,12:00,12:55,1
+CSE,23F,6,23F 6th Semester Section B,CSC-362,Mobile Application Development PR,LAB,Engr. Zain Siddiqui,AI and Data Science Lab,Friday,14:00,16:55,3
+CSE,24F,4,24F 4th Semester Section A,CSC-243,Theory of Automata,THEORY,Dr. Asma Sanam Larik,CS Lecture Room 102,Monday,10:00,10:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-244,Software Engineering,THEORY,Mr. Bilal Khan,CS Smart Classroom 326,Monday,11:00,11:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-241,Database Systems,THEORY,Engr. Farhan Ahmed,CS Lecture Room 202,Monday,12:00,12:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-243,Theory of Automata,THEORY,Dr. Asma Sanam Larik,CS Smart Classroom 325,Monday,12:00,12:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-241,Database Systems,THEORY,Engr. Farhan Ahmed,CS Smart Classroom 326,Monday,14:00,14:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-241,Database Systems,THEORY,Engr. Farhan Ahmed,CS Lecture Room 101,Monday,15:00,15:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-242,Operating Systems,THEORY,Engr. Zain Siddiqui,CS Smart Classroom 326,Monday,16:00,16:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-242,Operating Systems PR,LAB,Engr. Zain Siddiqui,Software Engineering Lab,Tuesday,09:00,11:55,3
+CSE,24F,4,24F 4th Semester Section A,MTH-242,Numerical Computing,THEORY,Ms. Nida Memon,CS Lecture Room 201,Tuesday,12:00,12:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-241,Database Systems PR,LAB,Engr. Farhan Ahmed,Cyber Security Lab,Tuesday,14:00,16:55,3
+CSE,24F,4,24F 4th Semester Section A,CSC-242,Operating Systems,THEORY,Engr. Zain Siddiqui,CS Final Year Discussion Room,Wednesday,09:00,09:55,1
+CSE,24F,4,24F 4th Semester Section A,MTH-242,Numerical Computing,THEORY,Ms. Nida Memon,CS Lecture Room 201,Wednesday,11:00,11:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-244,Software Engineering,THEORY,Mr. Bilal Khan,CS Seminar Room 301,Wednesday,14:00,14:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-243,Theory of Automata,THEORY,Dr. Asma Sanam Larik,CS Smart Classroom 326,Wednesday,15:00,15:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-242,Operating Systems,THEORY,Engr. Zain Siddiqui,CS Smart Classroom 325,Thursday,10:00,10:55,1
+CSE,24F,4,24F 4th Semester Section A,CSC-244,Software Engineering,THEORY,Mr. Bilal Khan,CS Seminar Room 301,Friday,14:00,14:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-243,Theory of Automata,THEORY,Dr. Asma Sanam Larik,CS Seminar Room 301,Monday,09:00,09:55,1
+CSE,24F,4,24F 4th Semester Section B,MTH-242,Numerical Computing,THEORY,Ms. Nida Memon,CS Final Year Discussion Room,Tuesday,11:00,11:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-242,Operating Systems PR,LAB,Engr. Zain Siddiqui,Cyber Security Lab,Wednesday,10:00,12:55,3
+CSE,24F,4,24F 4th Semester Section B,CSC-241,Database Systems,THEORY,Engr. Farhan Ahmed,CS Lecture Room 102,Wednesday,14:00,14:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-241,Database Systems PR,LAB,Engr. Farhan Ahmed,AI and Data Science Lab,Thursday,09:00,11:55,3
+CSE,24F,4,24F 4th Semester Section B,CSC-244,Software Engineering,THEORY,Mr. Bilal Khan,CS Lecture Room 201,Thursday,12:00,12:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-241,Database Systems,THEORY,Engr. Farhan Ahmed,CS Seminar Room 301,Thursday,14:00,14:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-244,Software Engineering,THEORY,Mr. Bilal Khan,CS Lecture Room 101,Thursday,15:00,15:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-242,Operating Systems,THEORY,Engr. Zain Siddiqui,CS Smart Classroom 325,Thursday,16:00,16:55,1
+CSE,24F,4,24F 4th Semester Section B,MTH-242,Numerical Computing,THEORY,Ms. Nida Memon,CS Smart Classroom 325,Friday,09:00,09:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-244,Software Engineering,THEORY,Mr. Bilal Khan,CS Smart Classroom 326,Friday,10:00,10:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-242,Operating Systems,THEORY,Engr. Zain Siddiqui,CS Smart Classroom 326,Friday,11:00,11:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-242,Operating Systems,THEORY,Engr. Zain Siddiqui,CS Lecture Room 201,Friday,12:00,12:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-243,Theory of Automata,THEORY,Dr. Asma Sanam Larik,CS Lecture Room 201,Friday,14:00,14:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-243,Theory of Automata,THEORY,Dr. Asma Sanam Larik,CS Final Year Discussion Room,Friday,15:00,15:55,1
+CSE,24F,4,24F 4th Semester Section B,CSC-241,Database Systems,THEORY,Engr. Farhan Ahmed,CS Seminar Room 301,Friday,16:00,16:55,1
+CSE,25F,2,25F 2nd Semester Section A,MTH-124,Linear Algebra,THEORY,Ms. Nida Memon,CS Lecture Room 102,Monday,09:00,09:55,1
+CSE,25F,2,25F 2nd Semester Section A,CSC-121,Object Oriented Programming,THEORY,Mr. Kamran Ali,CS Lecture Room 202,Monday,10:00,10:55,1
+CSE,25F,2,25F 2nd Semester Section A,CSC-122,Digital Logic Design,THEORY,Engr. Saad Qureshi,CS Seminar Room 301,Monday,12:00,12:55,1
+CSE,25F,2,25F 2nd Semester Section A,CSC-123,Discrete Structures,THEORY,Ms. Hira Siddiqui,CS Lecture Room 102,Monday,14:00,14:55,1
+CSE,25F,2,25F 2nd Semester Section A,MTH-124,Linear Algebra,THEORY,Ms. Nida Memon,CS Lecture Room 202,Monday,15:00,15:55,1
+CSE,25F,2,25F 2nd Semester Section A,CSC-121,Object Oriented Programming,THEORY,Mr. Kamran Ali,CS Smart Classroom 325,Tuesday,09:00,09:55,1
+CSE,25F,2,25F 2nd Semester Section A,HUM-102,Islamic Studies,THEORY,Ms. Mahnoor Raza,CS Lecture Room 102,Tuesday,10:00,10:55,1
+CSE,25F,2,25F 2nd Semester Section A,CSC-122,Digital Logic Design,THEORY,Engr. Saad Qureshi,CS Lecture Room 202,Tuesday,11:00,11:55,1
+CSE,25F,2,25F 2nd Semester Section A,CSC-123,Discrete Structures,THEORY,Ms. Hira Siddiqui,CS Lecture Room 101,Tuesday,12:00,12:55,1
+CSE,25F,2,25F 2nd Semester Section A,MTH-124,Linear Algebra,THEORY,Ms. Nida Memon,CS Lecture Room 202,Tuesday,14:00,14:55,1
+CSE,25F,2,25F 2nd Semester Section A,HUM-102,Islamic Studies,THEORY,Ms. Mahnoor Raza,CS Smart Classroom 325,Tuesday,15:00,15:55,1
+CSE,25F,2,25F 2nd Semester Section A,CSC-122,Digital Logic Design PR,LAB,Engr. Saad Qureshi,Computer Lab 1st Floor,Wednesday,09:00,11:55,3
+CSE,25F,2,25F 2nd Semester Section A,CSC-122,Digital Logic Design,THEORY,Engr. Saad Qureshi,CS Smart Classroom 325,Wednesday,12:00,12:55,1
+CSE,25F,2,25F 2nd Semester Section A,CSC-121,Object Oriented Programming PR,LAB,Mr. Kamran Ali,Computer Lab 1st Floor,Wednesday,14:00,16:55,3
+CSE,25F,2,25F 2nd Semester Section A,CSC-121,Object Oriented Programming,THEORY,Mr. Kamran Ali,CS Lecture Room 102,Thursday,12:00,12:55,1
+CSE,25F,2,25F 2nd Semester Section A,CSC-123,Discrete Structures,THEORY,Ms. Hira Siddiqui,CS Smart Classroom 326,Friday,16:00,16:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-123,Discrete Structures,THEORY,Ms. Hira Siddiqui,CS Lecture Room 202,Wednesday,09:00,09:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-123,Discrete Structures,THEORY,Ms. Hira Siddiqui,CS Lecture Room 201,Wednesday,10:00,10:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-123,Discrete Structures,THEORY,Ms. Hira Siddiqui,CS Lecture Room 102,Wednesday,11:00,11:55,1
+CSE,25F,2,25F 2nd Semester Section B,HUM-102,Islamic Studies,THEORY,Ms. Mahnoor Raza,CS Lecture Room 101,Wednesday,12:00,12:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-122,Digital Logic Design,THEORY,Engr. Saad Qureshi,CS Lecture Room 202,Wednesday,14:00,14:55,1
+CSE,25F,2,25F 2nd Semester Section B,MTH-124,Linear Algebra,THEORY,Ms. Nida Memon,CS Lecture Room 102,Wednesday,16:00,16:55,1
+CSE,25F,2,25F 2nd Semester Section B,HUM-102,Islamic Studies,THEORY,Ms. Mahnoor Raza,CS Lecture Room 102,Thursday,10:00,10:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-121,Object Oriented Programming,THEORY,Mr. Kamran Ali,CS Lecture Room 101,Thursday,11:00,11:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-122,Digital Logic Design,THEORY,Engr. Saad Qureshi,CS Seminar Room 301,Thursday,12:00,12:55,1
+CSE,25F,2,25F 2nd Semester Section B,MTH-124,Linear Algebra,THEORY,Ms. Nida Memon,CS Final Year Discussion Room,Thursday,14:00,14:55,1
+CSE,25F,2,25F 2nd Semester Section B,MTH-124,Linear Algebra,THEORY,Ms. Nida Memon,CS Lecture Room 102,Thursday,15:00,15:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-121,Object Oriented Programming,THEORY,Mr. Kamran Ali,CS Lecture Room 202,Thursday,16:00,16:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-121,Object Oriented Programming PR,LAB,Mr. Kamran Ali,Computer Lab Ground Floor,Friday,10:00,12:55,3
+CSE,25F,2,25F 2nd Semester Section B,CSC-122,Digital Logic Design,THEORY,Engr. Saad Qureshi,CS Lecture Room 201,Friday,11:00,11:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-121,Object Oriented Programming,THEORY,Mr. Kamran Ali,CS Lecture Room 202,Friday,14:00,14:55,1
+CSE,25F,2,25F 2nd Semester Section B,CSC-122,Digital Logic Design PR,LAB,Engr. Saad Qureshi,Computer Lab Ground Floor,Friday,14:00,16:55,3

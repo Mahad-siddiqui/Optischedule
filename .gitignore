@@ -1,7 +1,6 @@
 node_modules/
 dist/
 generated-data/
-output/
 .env
 frontend/node_modules
 frontend/dist/

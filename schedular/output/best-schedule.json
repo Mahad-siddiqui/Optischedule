@@ -1,0 +1,4338 @@
+{
+  "report": {
+    "score": -7303,
+    "hardViolations": 4,
+    "hardPenalty": 5700,
+    "softPenalty": 2603,
+    "softBreakdown": {
+      "studentGaps": 415,
+      "teacherFragmentation": 84,
+      "teacherOverload": 78,
+      "earlyFinish": 952,
+      "studentActiveDays": 810,
+      "campusSpan": 264
+    },
+    "hardBreakdown": {
+      "roomClashes": 0,
+      "teacherClashes": 1,
+      "studentClashes": 3,
+      "roomTypeMismatches": 0,
+      "capacityViolations": 0,
+      "breakViolations": 0,
+      "durationViolations": 0
+    }
+  },
+  "entries": [
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-482",
+      "courseName": "Computer Vision",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Sadia Akhtar",
+      "room": "CS Lecture Room 101",
+      "day": "Monday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-481",
+      "courseName": "Machine Learning PR",
+      "sessionType": "LAB",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "AI and Data Science Lab",
+      "day": "Monday",
+      "start": "10:00",
+      "end": "12:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-484",
+      "courseName": "Software Project Management",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Bilal Khan",
+      "room": "CS Lecture Room 101",
+      "day": "Monday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-483",
+      "courseName": "Evolutionary Computing",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Asma Sanam Larik",
+      "room": "CS Seminar Room 301",
+      "day": "Tuesday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-482",
+      "courseName": "Computer Vision",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Sadia Akhtar",
+      "room": "CS Seminar Room 301",
+      "day": "Tuesday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-483",
+      "courseName": "Evolutionary Computing",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Asma Sanam Larik",
+      "room": "CS Seminar Room 301",
+      "day": "Tuesday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-483",
+      "courseName": "Evolutionary Computing",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Asma Sanam Larik",
+      "room": "CS Final Year Discussion Room",
+      "day": "Tuesday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-484",
+      "courseName": "Software Project Management",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Bilal Khan",
+      "room": "CS Lecture Room 201",
+      "day": "Tuesday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "HUM-481",
+      "courseName": "Professional Ethics",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Smart Classroom 325",
+      "day": "Wednesday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-482",
+      "courseName": "Computer Vision",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Sadia Akhtar",
+      "room": "CS Smart Classroom 325",
+      "day": "Wednesday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-481",
+      "courseName": "Machine Learning",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "CS Seminar Room 301",
+      "day": "Wednesday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "HUM-481",
+      "courseName": "Professional Ethics",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Lecture Room 101",
+      "day": "Wednesday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-481",
+      "courseName": "Machine Learning",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "CS Lecture Room 102",
+      "day": "Thursday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-484",
+      "courseName": "Software Project Management",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Bilal Khan",
+      "room": "CS Smart Classroom 326",
+      "day": "Thursday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-482",
+      "courseName": "Computer Vision PR",
+      "sessionType": "LAB",
+      "teacher": "Dr. Sadia Akhtar",
+      "room": "AI and Data Science Lab",
+      "day": "Thursday",
+      "start": "14:00",
+      "end": "16:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "22F",
+      "semester": 8,
+      "section": "22F 8th Semester Section A",
+      "courseCode": "CSC-481",
+      "courseName": "Machine Learning",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "CS Lecture Room 101",
+      "day": "Friday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-362",
+      "courseName": "Mobile Application Development",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Final Year Discussion Room",
+      "day": "Monday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-364",
+      "courseName": "Parallel and Distributed Computing",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Lecture Room 101",
+      "day": "Monday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-364",
+      "courseName": "Parallel and Distributed Computing",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Lecture Room 201",
+      "day": "Monday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-363",
+      "courseName": "Information Security",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Sanaullah Shaikh",
+      "room": "CS Smart Classroom 326",
+      "day": "Monday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-362",
+      "courseName": "Mobile Application Development PR",
+      "sessionType": "LAB",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "AI and Data Science Lab",
+      "day": "Monday",
+      "start": "14:00",
+      "end": "16:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-361",
+      "courseName": "Artificial Intelligence PR",
+      "sessionType": "LAB",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "AI and Data Science Lab",
+      "day": "Tuesday",
+      "start": "09:00",
+      "end": "11:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-363",
+      "courseName": "Information Security",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Sanaullah Shaikh",
+      "room": "CS Smart Classroom 325",
+      "day": "Tuesday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "MGT-361",
+      "courseName": "Entrepreneurship",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Lecture Room 101",
+      "day": "Tuesday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-361",
+      "courseName": "Artificial Intelligence",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "CS Smart Classroom 326",
+      "day": "Tuesday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-363",
+      "courseName": "Information Security",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Sanaullah Shaikh",
+      "room": "CS Smart Classroom 326",
+      "day": "Tuesday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "MGT-361",
+      "courseName": "Entrepreneurship",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Seminar Room 301",
+      "day": "Wednesday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-361",
+      "courseName": "Artificial Intelligence",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "CS Lecture Room 202",
+      "day": "Wednesday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-364",
+      "courseName": "Parallel and Distributed Computing",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Lecture Room 201",
+      "day": "Wednesday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-361",
+      "courseName": "Artificial Intelligence",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "CS Lecture Room 201",
+      "day": "Wednesday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-362",
+      "courseName": "Mobile Application Development",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Seminar Room 301",
+      "day": "Wednesday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section A",
+      "courseCode": "CSC-362",
+      "courseName": "Mobile Application Development",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Lecture Room 201",
+      "day": "Thursday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-364",
+      "courseName": "Parallel and Distributed Computing",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Lecture Room 202",
+      "day": "Wednesday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-364",
+      "courseName": "Parallel and Distributed Computing",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Final Year Discussion Room",
+      "day": "Wednesday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-363",
+      "courseName": "Information Security",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Sanaullah Shaikh",
+      "room": "CS Lecture Room 202",
+      "day": "Wednesday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "MGT-361",
+      "courseName": "Entrepreneurship",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Final Year Discussion Room",
+      "day": "Wednesday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-361",
+      "courseName": "Artificial Intelligence",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "CS Final Year Discussion Room",
+      "day": "Wednesday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-364",
+      "courseName": "Parallel and Distributed Computing",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Final Year Discussion Room",
+      "day": "Wednesday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-363",
+      "courseName": "Information Security",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Sanaullah Shaikh",
+      "room": "CS Smart Classroom 326",
+      "day": "Thursday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-363",
+      "courseName": "Information Security",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Sanaullah Shaikh",
+      "room": "CS Seminar Room 301",
+      "day": "Thursday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-362",
+      "courseName": "Mobile Application Development",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Lecture Room 202",
+      "day": "Thursday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-362",
+      "courseName": "Mobile Application Development",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Smart Classroom 325",
+      "day": "Thursday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-361",
+      "courseName": "Artificial Intelligence PR",
+      "sessionType": "LAB",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "Cyber Security Lab",
+      "day": "Thursday",
+      "start": "14:00",
+      "end": "16:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-362",
+      "courseName": "Mobile Application Development",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Smart Classroom 326",
+      "day": "Friday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-361",
+      "courseName": "Artificial Intelligence",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "CS Lecture Room 202",
+      "day": "Friday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "MGT-361",
+      "courseName": "Entrepreneurship",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Lecture Room 101",
+      "day": "Friday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-361",
+      "courseName": "Artificial Intelligence",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Ayesha Noor",
+      "room": "CS Seminar Room 301",
+      "day": "Friday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "23F",
+      "semester": 6,
+      "section": "23F 6th Semester Section B",
+      "courseCode": "CSC-362",
+      "courseName": "Mobile Application Development PR",
+      "sessionType": "LAB",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "AI and Data Science Lab",
+      "day": "Friday",
+      "start": "14:00",
+      "end": "16:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-243",
+      "courseName": "Theory of Automata",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Asma Sanam Larik",
+      "room": "CS Lecture Room 102",
+      "day": "Monday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-244",
+      "courseName": "Software Engineering",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Bilal Khan",
+      "room": "CS Smart Classroom 326",
+      "day": "Monday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-241",
+      "courseName": "Database Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Lecture Room 202",
+      "day": "Monday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-243",
+      "courseName": "Theory of Automata",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Asma Sanam Larik",
+      "room": "CS Smart Classroom 325",
+      "day": "Monday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-241",
+      "courseName": "Database Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Smart Classroom 326",
+      "day": "Monday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-241",
+      "courseName": "Database Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Lecture Room 101",
+      "day": "Monday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-242",
+      "courseName": "Operating Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Smart Classroom 326",
+      "day": "Monday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-242",
+      "courseName": "Operating Systems PR",
+      "sessionType": "LAB",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "Software Engineering Lab",
+      "day": "Tuesday",
+      "start": "09:00",
+      "end": "11:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "MTH-242",
+      "courseName": "Numerical Computing",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Lecture Room 201",
+      "day": "Tuesday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-241",
+      "courseName": "Database Systems PR",
+      "sessionType": "LAB",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "Cyber Security Lab",
+      "day": "Tuesday",
+      "start": "14:00",
+      "end": "16:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-242",
+      "courseName": "Operating Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Final Year Discussion Room",
+      "day": "Wednesday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "MTH-242",
+      "courseName": "Numerical Computing",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Lecture Room 201",
+      "day": "Wednesday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-244",
+      "courseName": "Software Engineering",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Bilal Khan",
+      "room": "CS Seminar Room 301",
+      "day": "Wednesday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-243",
+      "courseName": "Theory of Automata",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Asma Sanam Larik",
+      "room": "CS Smart Classroom 326",
+      "day": "Wednesday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-242",
+      "courseName": "Operating Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Smart Classroom 325",
+      "day": "Thursday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section A",
+      "courseCode": "CSC-244",
+      "courseName": "Software Engineering",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Bilal Khan",
+      "room": "CS Seminar Room 301",
+      "day": "Friday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-243",
+      "courseName": "Theory of Automata",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Asma Sanam Larik",
+      "room": "CS Seminar Room 301",
+      "day": "Monday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "MTH-242",
+      "courseName": "Numerical Computing",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Final Year Discussion Room",
+      "day": "Tuesday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-242",
+      "courseName": "Operating Systems PR",
+      "sessionType": "LAB",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "Cyber Security Lab",
+      "day": "Wednesday",
+      "start": "10:00",
+      "end": "12:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-241",
+      "courseName": "Database Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Lecture Room 102",
+      "day": "Wednesday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-241",
+      "courseName": "Database Systems PR",
+      "sessionType": "LAB",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "AI and Data Science Lab",
+      "day": "Thursday",
+      "start": "09:00",
+      "end": "11:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-244",
+      "courseName": "Software Engineering",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Bilal Khan",
+      "room": "CS Lecture Room 201",
+      "day": "Thursday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-241",
+      "courseName": "Database Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Seminar Room 301",
+      "day": "Thursday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-244",
+      "courseName": "Software Engineering",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Bilal Khan",
+      "room": "CS Lecture Room 101",
+      "day": "Thursday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-242",
+      "courseName": "Operating Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Smart Classroom 325",
+      "day": "Thursday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "MTH-242",
+      "courseName": "Numerical Computing",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Smart Classroom 325",
+      "day": "Friday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-244",
+      "courseName": "Software Engineering",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Bilal Khan",
+      "room": "CS Smart Classroom 326",
+      "day": "Friday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-242",
+      "courseName": "Operating Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Smart Classroom 326",
+      "day": "Friday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-242",
+      "courseName": "Operating Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Zain Siddiqui",
+      "room": "CS Lecture Room 201",
+      "day": "Friday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-243",
+      "courseName": "Theory of Automata",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Asma Sanam Larik",
+      "room": "CS Lecture Room 201",
+      "day": "Friday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-243",
+      "courseName": "Theory of Automata",
+      "sessionType": "THEORY",
+      "teacher": "Dr. Asma Sanam Larik",
+      "room": "CS Final Year Discussion Room",
+      "day": "Friday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "24F",
+      "semester": 4,
+      "section": "24F 4th Semester Section B",
+      "courseCode": "CSC-241",
+      "courseName": "Database Systems",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Farhan Ahmed",
+      "room": "CS Seminar Room 301",
+      "day": "Friday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "MTH-124",
+      "courseName": "Linear Algebra",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Lecture Room 102",
+      "day": "Monday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-121",
+      "courseName": "Object Oriented Programming",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Kamran Ali",
+      "room": "CS Lecture Room 202",
+      "day": "Monday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-122",
+      "courseName": "Digital Logic Design",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Saad Qureshi",
+      "room": "CS Seminar Room 301",
+      "day": "Monday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-123",
+      "courseName": "Discrete Structures",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Hira Siddiqui",
+      "room": "CS Lecture Room 102",
+      "day": "Monday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "MTH-124",
+      "courseName": "Linear Algebra",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Lecture Room 202",
+      "day": "Monday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-121",
+      "courseName": "Object Oriented Programming",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Kamran Ali",
+      "room": "CS Smart Classroom 325",
+      "day": "Tuesday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "HUM-102",
+      "courseName": "Islamic Studies",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Lecture Room 102",
+      "day": "Tuesday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-122",
+      "courseName": "Digital Logic Design",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Saad Qureshi",
+      "room": "CS Lecture Room 202",
+      "day": "Tuesday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-123",
+      "courseName": "Discrete Structures",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Hira Siddiqui",
+      "room": "CS Lecture Room 101",
+      "day": "Tuesday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "MTH-124",
+      "courseName": "Linear Algebra",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Lecture Room 202",
+      "day": "Tuesday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "HUM-102",
+      "courseName": "Islamic Studies",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Smart Classroom 325",
+      "day": "Tuesday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-122",
+      "courseName": "Digital Logic Design PR",
+      "sessionType": "LAB",
+      "teacher": "Engr. Saad Qureshi",
+      "room": "Computer Lab 1st Floor",
+      "day": "Wednesday",
+      "start": "09:00",
+      "end": "11:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-122",
+      "courseName": "Digital Logic Design",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Saad Qureshi",
+      "room": "CS Smart Classroom 325",
+      "day": "Wednesday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-121",
+      "courseName": "Object Oriented Programming PR",
+      "sessionType": "LAB",
+      "teacher": "Mr. Kamran Ali",
+      "room": "Computer Lab 1st Floor",
+      "day": "Wednesday",
+      "start": "14:00",
+      "end": "16:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-121",
+      "courseName": "Object Oriented Programming",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Kamran Ali",
+      "room": "CS Lecture Room 102",
+      "day": "Thursday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section A",
+      "courseCode": "CSC-123",
+      "courseName": "Discrete Structures",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Hira Siddiqui",
+      "room": "CS Smart Classroom 326",
+      "day": "Friday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-123",
+      "courseName": "Discrete Structures",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Hira Siddiqui",
+      "room": "CS Lecture Room 202",
+      "day": "Wednesday",
+      "start": "09:00",
+      "end": "09:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-123",
+      "courseName": "Discrete Structures",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Hira Siddiqui",
+      "room": "CS Lecture Room 201",
+      "day": "Wednesday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-123",
+      "courseName": "Discrete Structures",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Hira Siddiqui",
+      "room": "CS Lecture Room 102",
+      "day": "Wednesday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "HUM-102",
+      "courseName": "Islamic Studies",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Lecture Room 101",
+      "day": "Wednesday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-122",
+      "courseName": "Digital Logic Design",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Saad Qureshi",
+      "room": "CS Lecture Room 202",
+      "day": "Wednesday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "MTH-124",
+      "courseName": "Linear Algebra",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Lecture Room 102",
+      "day": "Wednesday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "HUM-102",
+      "courseName": "Islamic Studies",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Mahnoor Raza",
+      "room": "CS Lecture Room 102",
+      "day": "Thursday",
+      "start": "10:00",
+      "end": "10:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-121",
+      "courseName": "Object Oriented Programming",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Kamran Ali",
+      "room": "CS Lecture Room 101",
+      "day": "Thursday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-122",
+      "courseName": "Digital Logic Design",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Saad Qureshi",
+      "room": "CS Seminar Room 301",
+      "day": "Thursday",
+      "start": "12:00",
+      "end": "12:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "MTH-124",
+      "courseName": "Linear Algebra",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Final Year Discussion Room",
+      "day": "Thursday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "MTH-124",
+      "courseName": "Linear Algebra",
+      "sessionType": "THEORY",
+      "teacher": "Ms. Nida Memon",
+      "room": "CS Lecture Room 102",
+      "day": "Thursday",
+      "start": "15:00",
+      "end": "15:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-121",
+      "courseName": "Object Oriented Programming",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Kamran Ali",
+      "room": "CS Lecture Room 202",
+      "day": "Thursday",
+      "start": "16:00",
+      "end": "16:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-121",
+      "courseName": "Object Oriented Programming PR",
+      "sessionType": "LAB",
+      "teacher": "Mr. Kamran Ali",
+      "room": "Computer Lab Ground Floor",
+      "day": "Friday",
+      "start": "10:00",
+      "end": "12:55",
+      "durationPeriods": 3
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-122",
+      "courseName": "Digital Logic Design",
+      "sessionType": "THEORY",
+      "teacher": "Engr. Saad Qureshi",
+      "room": "CS Lecture Room 201",
+      "day": "Friday",
+      "start": "11:00",
+      "end": "11:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-121",
+      "courseName": "Object Oriented Programming",
+      "sessionType": "THEORY",
+      "teacher": "Mr. Kamran Ali",
+      "room": "CS Lecture Room 202",
+      "day": "Friday",
+      "start": "14:00",
+      "end": "14:55",
+      "durationPeriods": 1
+    },
+    {
+      "department": "CSE",
+      "batch": "25F",
+      "semester": 2,
+      "section": "25F 2nd Semester Section B",
+      "courseCode": "CSC-122",
+      "courseName": "Digital Logic Design PR",
+      "sessionType": "LAB",
+      "teacher": "Engr. Saad Qureshi",
+      "room": "Computer Lab Ground Floor",
+      "day": "Friday",
+      "start": "14:00",
+      "end": "16:55",
+      "durationPeriods": 3
+    }
+  ],
+  "grid": [
+    {
+      "sectionId": "section-cse-22f-a",
+      "section": "22F 8th Semester Section A",
+      "days": {
+        "Monday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-482",
+              "courseName": "Computer Vision",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Sadia Akhtar",
+              "room": "CS Lecture Room 101",
+              "day": "Monday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-481",
+              "courseName": "Machine Learning PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "AI and Data Science Lab",
+              "day": "Monday",
+              "start": "10:00",
+              "end": "12:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-481",
+              "courseName": "Machine Learning PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "AI and Data Science Lab",
+              "day": "Monday",
+              "start": "10:00",
+              "end": "12:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-481",
+              "courseName": "Machine Learning PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "AI and Data Science Lab",
+              "day": "Monday",
+              "start": "10:00",
+              "end": "12:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-484",
+              "courseName": "Software Project Management",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Bilal Khan",
+              "room": "CS Lecture Room 101",
+              "day": "Monday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        },
+        "Tuesday": {
+          "P1": [],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-483",
+              "courseName": "Evolutionary Computing",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Asma Sanam Larik",
+              "room": "CS Seminar Room 301",
+              "day": "Tuesday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-482",
+              "courseName": "Computer Vision",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Sadia Akhtar",
+              "room": "CS Seminar Room 301",
+              "day": "Tuesday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-483",
+              "courseName": "Evolutionary Computing",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Asma Sanam Larik",
+              "room": "CS Seminar Room 301",
+              "day": "Tuesday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-483",
+              "courseName": "Evolutionary Computing",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Asma Sanam Larik",
+              "room": "CS Final Year Discussion Room",
+              "day": "Tuesday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-484",
+              "courseName": "Software Project Management",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Bilal Khan",
+              "room": "CS Lecture Room 201",
+              "day": "Tuesday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        },
+        "Wednesday": {
+          "P1": [],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "HUM-481",
+              "courseName": "Professional Ethics",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Smart Classroom 325",
+              "day": "Wednesday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-482",
+              "courseName": "Computer Vision",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Sadia Akhtar",
+              "room": "CS Smart Classroom 325",
+              "day": "Wednesday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-481",
+              "courseName": "Machine Learning",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "CS Seminar Room 301",
+              "day": "Wednesday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "HUM-481",
+              "courseName": "Professional Ethics",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Lecture Room 101",
+              "day": "Wednesday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": []
+        },
+        "Thursday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-481",
+              "courseName": "Machine Learning",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "CS Lecture Room 102",
+              "day": "Thursday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-484",
+              "courseName": "Software Project Management",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Bilal Khan",
+              "room": "CS Smart Classroom 326",
+              "day": "Thursday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-482",
+              "courseName": "Computer Vision PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Sadia Akhtar",
+              "room": "AI and Data Science Lab",
+              "day": "Thursday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-482",
+              "courseName": "Computer Vision PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Sadia Akhtar",
+              "room": "AI and Data Science Lab",
+              "day": "Thursday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-482",
+              "courseName": "Computer Vision PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Sadia Akhtar",
+              "room": "AI and Data Science Lab",
+              "day": "Thursday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ]
+        },
+        "Friday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "22F",
+              "semester": 8,
+              "section": "22F 8th Semester Section A",
+              "courseCode": "CSC-481",
+              "courseName": "Machine Learning",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "CS Lecture Room 101",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [],
+          "P8": []
+        }
+      }
+    },
+    {
+      "sectionId": "section-cse-23f-a",
+      "section": "23F 6th Semester Section A",
+      "days": {
+        "Monday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Final Year Discussion Room",
+              "day": "Monday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-364",
+              "courseName": "Parallel and Distributed Computing",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Lecture Room 101",
+              "day": "Monday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-364",
+              "courseName": "Parallel and Distributed Computing",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Lecture Room 201",
+              "day": "Monday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-363",
+              "courseName": "Information Security",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Sanaullah Shaikh",
+              "room": "CS Smart Classroom 326",
+              "day": "Monday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "AI and Data Science Lab",
+              "day": "Monday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "AI and Data Science Lab",
+              "day": "Monday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "AI and Data Science Lab",
+              "day": "Monday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ]
+        },
+        "Tuesday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "AI and Data Science Lab",
+              "day": "Tuesday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "AI and Data Science Lab",
+              "day": "Tuesday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "AI and Data Science Lab",
+              "day": "Tuesday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-363",
+              "courseName": "Information Security",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Sanaullah Shaikh",
+              "room": "CS Smart Classroom 325",
+              "day": "Tuesday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "MGT-361",
+              "courseName": "Entrepreneurship",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Lecture Room 101",
+              "day": "Tuesday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "CS Smart Classroom 326",
+              "day": "Tuesday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-363",
+              "courseName": "Information Security",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Sanaullah Shaikh",
+              "room": "CS Smart Classroom 326",
+              "day": "Tuesday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        },
+        "Wednesday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "MGT-361",
+              "courseName": "Entrepreneurship",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Seminar Room 301",
+              "day": "Wednesday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "CS Lecture Room 202",
+              "day": "Wednesday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-364",
+              "courseName": "Parallel and Distributed Computing",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Lecture Room 201",
+              "day": "Wednesday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "CS Lecture Room 201",
+              "day": "Wednesday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Seminar Room 301",
+              "day": "Wednesday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": []
+        },
+        "Thursday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section A",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Lecture Room 201",
+              "day": "Thursday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": []
+        },
+        "Friday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": []
+        }
+      }
+    },
+    {
+      "sectionId": "section-cse-23f-b",
+      "section": "23F 6th Semester Section B",
+      "days": {
+        "Monday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": []
+        },
+        "Tuesday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": []
+        },
+        "Wednesday": {
+          "P1": [],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-364",
+              "courseName": "Parallel and Distributed Computing",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Lecture Room 202",
+              "day": "Wednesday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-364",
+              "courseName": "Parallel and Distributed Computing",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Final Year Discussion Room",
+              "day": "Wednesday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-363",
+              "courseName": "Information Security",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Sanaullah Shaikh",
+              "room": "CS Lecture Room 202",
+              "day": "Wednesday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "MGT-361",
+              "courseName": "Entrepreneurship",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Final Year Discussion Room",
+              "day": "Wednesday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "CS Final Year Discussion Room",
+              "day": "Wednesday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-364",
+              "courseName": "Parallel and Distributed Computing",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Final Year Discussion Room",
+              "day": "Wednesday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        },
+        "Thursday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-363",
+              "courseName": "Information Security",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Sanaullah Shaikh",
+              "room": "CS Smart Classroom 326",
+              "day": "Thursday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-363",
+              "courseName": "Information Security",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Sanaullah Shaikh",
+              "room": "CS Seminar Room 301",
+              "day": "Thursday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Lecture Room 202",
+              "day": "Thursday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Smart Classroom 325",
+              "day": "Thursday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "Cyber Security Lab",
+              "day": "Thursday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "Cyber Security Lab",
+              "day": "Thursday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence PR",
+              "sessionType": "LAB",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "Cyber Security Lab",
+              "day": "Thursday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ]
+        },
+        "Friday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Smart Classroom 326",
+              "day": "Friday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "CS Lecture Room 202",
+              "day": "Friday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "MGT-361",
+              "courseName": "Entrepreneurship",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Lecture Room 101",
+              "day": "Friday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-361",
+              "courseName": "Artificial Intelligence",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Ayesha Noor",
+              "room": "CS Seminar Room 301",
+              "day": "Friday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "AI and Data Science Lab",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "AI and Data Science Lab",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "23F",
+              "semester": 6,
+              "section": "23F 6th Semester Section B",
+              "courseCode": "CSC-362",
+              "courseName": "Mobile Application Development PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "AI and Data Science Lab",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sectionId": "section-cse-24f-a",
+      "section": "24F 4th Semester Section A",
+      "days": {
+        "Monday": {
+          "P1": [],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-243",
+              "courseName": "Theory of Automata",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Asma Sanam Larik",
+              "room": "CS Lecture Room 102",
+              "day": "Monday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-244",
+              "courseName": "Software Engineering",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Bilal Khan",
+              "room": "CS Smart Classroom 326",
+              "day": "Monday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Lecture Room 202",
+              "day": "Monday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            },
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-243",
+              "courseName": "Theory of Automata",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Asma Sanam Larik",
+              "room": "CS Smart Classroom 325",
+              "day": "Monday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Smart Classroom 326",
+              "day": "Monday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Lecture Room 101",
+              "day": "Monday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Smart Classroom 326",
+              "day": "Monday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        },
+        "Tuesday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "Software Engineering Lab",
+              "day": "Tuesday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "Software Engineering Lab",
+              "day": "Tuesday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "Software Engineering Lab",
+              "day": "Tuesday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "MTH-242",
+              "courseName": "Numerical Computing",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Lecture Room 201",
+              "day": "Tuesday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "Cyber Security Lab",
+              "day": "Tuesday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "Cyber Security Lab",
+              "day": "Tuesday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "Cyber Security Lab",
+              "day": "Tuesday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ]
+        },
+        "Wednesday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Final Year Discussion Room",
+              "day": "Wednesday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "MTH-242",
+              "courseName": "Numerical Computing",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Lecture Room 201",
+              "day": "Wednesday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-244",
+              "courseName": "Software Engineering",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Bilal Khan",
+              "room": "CS Seminar Room 301",
+              "day": "Wednesday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-243",
+              "courseName": "Theory of Automata",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Asma Sanam Larik",
+              "room": "CS Smart Classroom 326",
+              "day": "Wednesday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": []
+        },
+        "Thursday": {
+          "P1": [],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Smart Classroom 325",
+              "day": "Thursday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": []
+        },
+        "Friday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section A",
+              "courseCode": "CSC-244",
+              "courseName": "Software Engineering",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Bilal Khan",
+              "room": "CS Seminar Room 301",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [],
+          "P8": []
+        }
+      }
+    },
+    {
+      "sectionId": "section-cse-24f-b",
+      "section": "24F 4th Semester Section B",
+      "days": {
+        "Monday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-243",
+              "courseName": "Theory of Automata",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Asma Sanam Larik",
+              "room": "CS Seminar Room 301",
+              "day": "Monday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": []
+        },
+        "Tuesday": {
+          "P1": [],
+          "P2": [],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "MTH-242",
+              "courseName": "Numerical Computing",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Final Year Discussion Room",
+              "day": "Tuesday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": []
+        },
+        "Wednesday": {
+          "P1": [],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "Cyber Security Lab",
+              "day": "Wednesday",
+              "start": "10:00",
+              "end": "12:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "Cyber Security Lab",
+              "day": "Wednesday",
+              "start": "10:00",
+              "end": "12:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "Cyber Security Lab",
+              "day": "Wednesday",
+              "start": "10:00",
+              "end": "12:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Lecture Room 102",
+              "day": "Wednesday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [],
+          "P8": []
+        },
+        "Thursday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "AI and Data Science Lab",
+              "day": "Thursday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "AI and Data Science Lab",
+              "day": "Thursday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "AI and Data Science Lab",
+              "day": "Thursday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-244",
+              "courseName": "Software Engineering",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Bilal Khan",
+              "room": "CS Lecture Room 201",
+              "day": "Thursday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Seminar Room 301",
+              "day": "Thursday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-244",
+              "courseName": "Software Engineering",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Bilal Khan",
+              "room": "CS Lecture Room 101",
+              "day": "Thursday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Smart Classroom 325",
+              "day": "Thursday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        },
+        "Friday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "MTH-242",
+              "courseName": "Numerical Computing",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Smart Classroom 325",
+              "day": "Friday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-244",
+              "courseName": "Software Engineering",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Bilal Khan",
+              "room": "CS Smart Classroom 326",
+              "day": "Friday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Smart Classroom 326",
+              "day": "Friday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-242",
+              "courseName": "Operating Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Zain Siddiqui",
+              "room": "CS Lecture Room 201",
+              "day": "Friday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-243",
+              "courseName": "Theory of Automata",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Asma Sanam Larik",
+              "room": "CS Lecture Room 201",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-243",
+              "courseName": "Theory of Automata",
+              "sessionType": "THEORY",
+              "teacher": "Dr. Asma Sanam Larik",
+              "room": "CS Final Year Discussion Room",
+              "day": "Friday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "24F",
+              "semester": 4,
+              "section": "24F 4th Semester Section B",
+              "courseCode": "CSC-241",
+              "courseName": "Database Systems",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Farhan Ahmed",
+              "room": "CS Seminar Room 301",
+              "day": "Friday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sectionId": "section-cse-25f-a",
+      "section": "25F 2nd Semester Section A",
+      "days": {
+        "Monday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "MTH-124",
+              "courseName": "Linear Algebra",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Lecture Room 102",
+              "day": "Monday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Kamran Ali",
+              "room": "CS Lecture Room 202",
+              "day": "Monday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "CS Seminar Room 301",
+              "day": "Monday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-123",
+              "courseName": "Discrete Structures",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Hira Siddiqui",
+              "room": "CS Lecture Room 102",
+              "day": "Monday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "MTH-124",
+              "courseName": "Linear Algebra",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Lecture Room 202",
+              "day": "Monday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": []
+        },
+        "Tuesday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Kamran Ali",
+              "room": "CS Smart Classroom 325",
+              "day": "Tuesday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "HUM-102",
+              "courseName": "Islamic Studies",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Lecture Room 102",
+              "day": "Tuesday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "CS Lecture Room 202",
+              "day": "Tuesday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-123",
+              "courseName": "Discrete Structures",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Hira Siddiqui",
+              "room": "CS Lecture Room 101",
+              "day": "Tuesday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "MTH-124",
+              "courseName": "Linear Algebra",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Lecture Room 202",
+              "day": "Tuesday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "HUM-102",
+              "courseName": "Islamic Studies",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Smart Classroom 325",
+              "day": "Tuesday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": []
+        },
+        "Wednesday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "Computer Lab 1st Floor",
+              "day": "Wednesday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "Computer Lab 1st Floor",
+              "day": "Wednesday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "Computer Lab 1st Floor",
+              "day": "Wednesday",
+              "start": "09:00",
+              "end": "11:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "CS Smart Classroom 325",
+              "day": "Wednesday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming PR",
+              "sessionType": "LAB",
+              "teacher": "Mr. Kamran Ali",
+              "room": "Computer Lab 1st Floor",
+              "day": "Wednesday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming PR",
+              "sessionType": "LAB",
+              "teacher": "Mr. Kamran Ali",
+              "room": "Computer Lab 1st Floor",
+              "day": "Wednesday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming PR",
+              "sessionType": "LAB",
+              "teacher": "Mr. Kamran Ali",
+              "room": "Computer Lab 1st Floor",
+              "day": "Wednesday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ]
+        },
+        "Thursday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Kamran Ali",
+              "room": "CS Lecture Room 102",
+              "day": "Thursday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": []
+        },
+        "Friday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section A",
+              "courseCode": "CSC-123",
+              "courseName": "Discrete Structures",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Hira Siddiqui",
+              "room": "CS Smart Classroom 326",
+              "day": "Friday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sectionId": "section-cse-25f-b",
+      "section": "25F 2nd Semester Section B",
+      "days": {
+        "Monday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": []
+        },
+        "Tuesday": {
+          "P1": [],
+          "P2": [],
+          "P3": [],
+          "P4": [],
+          "P5": [],
+          "P6": [],
+          "P7": [],
+          "P8": []
+        },
+        "Wednesday": {
+          "P1": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-123",
+              "courseName": "Discrete Structures",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Hira Siddiqui",
+              "room": "CS Lecture Room 202",
+              "day": "Wednesday",
+              "start": "09:00",
+              "end": "09:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-123",
+              "courseName": "Discrete Structures",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Hira Siddiqui",
+              "room": "CS Lecture Room 201",
+              "day": "Wednesday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-123",
+              "courseName": "Discrete Structures",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Hira Siddiqui",
+              "room": "CS Lecture Room 102",
+              "day": "Wednesday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "HUM-102",
+              "courseName": "Islamic Studies",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Lecture Room 101",
+              "day": "Wednesday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "CS Lecture Room 202",
+              "day": "Wednesday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "MTH-124",
+              "courseName": "Linear Algebra",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Lecture Room 102",
+              "day": "Wednesday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        },
+        "Thursday": {
+          "P1": [],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "HUM-102",
+              "courseName": "Islamic Studies",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Mahnoor Raza",
+              "room": "CS Lecture Room 102",
+              "day": "Thursday",
+              "start": "10:00",
+              "end": "10:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Kamran Ali",
+              "room": "CS Lecture Room 101",
+              "day": "Thursday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "CS Seminar Room 301",
+              "day": "Thursday",
+              "start": "12:00",
+              "end": "12:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "MTH-124",
+              "courseName": "Linear Algebra",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Final Year Discussion Room",
+              "day": "Thursday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "MTH-124",
+              "courseName": "Linear Algebra",
+              "sessionType": "THEORY",
+              "teacher": "Ms. Nida Memon",
+              "room": "CS Lecture Room 102",
+              "day": "Thursday",
+              "start": "15:00",
+              "end": "15:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Kamran Ali",
+              "room": "CS Lecture Room 202",
+              "day": "Thursday",
+              "start": "16:00",
+              "end": "16:55",
+              "durationPeriods": 1
+            }
+          ]
+        },
+        "Friday": {
+          "P1": [],
+          "P2": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming PR",
+              "sessionType": "LAB",
+              "teacher": "Mr. Kamran Ali",
+              "room": "Computer Lab Ground Floor",
+              "day": "Friday",
+              "start": "10:00",
+              "end": "12:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P3": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming PR",
+              "sessionType": "LAB",
+              "teacher": "Mr. Kamran Ali",
+              "room": "Computer Lab Ground Floor",
+              "day": "Friday",
+              "start": "10:00",
+              "end": "12:55",
+              "durationPeriods": 3
+            },
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design",
+              "sessionType": "THEORY",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "CS Lecture Room 201",
+              "day": "Friday",
+              "start": "11:00",
+              "end": "11:55",
+              "durationPeriods": 1
+            }
+          ],
+          "P4": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming PR",
+              "sessionType": "LAB",
+              "teacher": "Mr. Kamran Ali",
+              "room": "Computer Lab Ground Floor",
+              "day": "Friday",
+              "start": "10:00",
+              "end": "12:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P5": [],
+          "P6": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-121",
+              "courseName": "Object Oriented Programming",
+              "sessionType": "THEORY",
+              "teacher": "Mr. Kamran Ali",
+              "room": "CS Lecture Room 202",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "14:55",
+              "durationPeriods": 1
+            },
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "Computer Lab Ground Floor",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P7": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "Computer Lab Ground Floor",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ],
+          "P8": [
+            {
+              "department": "CSE",
+              "batch": "25F",
+              "semester": 2,
+              "section": "25F 2nd Semester Section B",
+              "courseCode": "CSC-122",
+              "courseName": "Digital Logic Design PR",
+              "sessionType": "LAB",
+              "teacher": "Engr. Saad Qureshi",
+              "room": "Computer Lab Ground Floor",
+              "day": "Friday",
+              "start": "14:00",
+              "end": "16:55",
+              "durationPeriods": 3
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
